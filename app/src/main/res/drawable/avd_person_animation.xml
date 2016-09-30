@@ -1,0 +1,13 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_person" >
+    <target
+        android:name="body"
+        android:animation="@anim/reveal_player_body_icon_animation" />
+    <target
+        android:name="head"
+        android:animation="@anim/reveal_player_head_icon_animation" />
+
+    <target
+        android:name="line"
+        android:animation="@anim/reveal_connection" />
+</animated-vector>
